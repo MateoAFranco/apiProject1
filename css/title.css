@@ -1,0 +1,18 @@
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    min-height: 180px;
+    box-sizing: border-box;
+    background-color:rgb(157, 186, 255) ;
+}
+
+.display-2 {
+    /* font-weight: 400; */
+    text-transform: uppercase;
+    font-family: 'Coda Caption';
+    letter-spacing: 7px;
+    color: black;
+}

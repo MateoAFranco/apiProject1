@@ -1,0 +1,8 @@
+.bkg-cat-img {
+    background-image: url(../assets/carl-jorgensen-Bx-dKrVq-oM-unsplash.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}

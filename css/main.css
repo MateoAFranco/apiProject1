@@ -1,0 +1,20 @@
+@import './title.css';
+
+@import './image.css';
+
+@import './apiTitle.css';
+
+@import './cardWrapper.css';
+
+@import './driverInfo.css';
+
+@import './button.css';
+
+
+
+/* font for title */
+
+@font-face {
+    font-family: 'Coda Caption';
+    src: url(../assets/Coda_Caption/CodaCaption-ExtraBold.ttf);
+}

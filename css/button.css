@@ -1,0 +1,26 @@
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#randomize-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+
+}
+#randomize-button:hover {
+    background-color: #245026;
+}
+
+#randomize-button:active {
+    transform: translateY(7px);
+    box-shadow: 0 5px #666;
+  }
+

@@ -4,9 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>F1 Racing</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <!-- Cat Facts API -->
+    <div class="title"> 
+        <h1 class="display-2">F1 Racing API</h1>
+      </div>
+    <div class="bkg-cat-img"></div> 
     
+    <div class="api-demo">
+        <div class="api-title">
+            <h1>F1 Driver Randomizer</h1>
+        </div>
+
+        <div class="card-wrapper">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img id="driver-pic" src="./assets/photo-1583008581453-4330952c66ef.webp" alt="Driver" style="height: 100%; object-fit: contain; object-fit: cover; object-position: center; width: inherit; border-radius: 6px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <div class="left-side">
+
+                        </div>
+                        <div class="full-name">
+                            <h2 class="first-name">Click</h2>
+                            <h2 class="last-name">Button</h2>
+                        </div>
+                        <div class="info-section">
+                            <div class="info-title">
+                                <p>Driver Information</p>
+                            </div>
+                            <p class="nationality"></p>
+                            <p class="birth-date"></p>
+                            <a class="wiki"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button">
+            <button type="button" id="randomize-button" >Load Random Driver</button>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+
 </body>
 </html>

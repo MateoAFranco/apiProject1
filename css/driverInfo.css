@@ -1,0 +1,46 @@
+.full-name {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(107, 151, 255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.first-name, .last-name {
+    margin: 3.8px;
+    font-size: 60px;
+}
+
+.info-section {
+    height: 300px;
+    width: 50%;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: black;
+    margin: 0 auto
+}
+
+.info-title {
+    color: white;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(190, 94, 94);
+    font-size: 27px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+.wiki {
+    word-wrap: break-word;
+}
+

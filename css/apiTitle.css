@@ -1,0 +1,17 @@
+.api-demo {
+    min-height: 900px;
+    width: 100%;
+    background-color:lavender;
+    padding: 40px;
+}
+
+.api-title {
+    /* background-color: blue; */
+    min-height: 120px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
